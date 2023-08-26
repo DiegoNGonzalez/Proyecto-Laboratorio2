@@ -30,6 +30,9 @@
     <ClCompile Include="DatosMeteorologicos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DatosMeteorologicosDiarios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fecha.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DatosMeteorologicos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatosMeteorologicosDiarios.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DatosMeteorologicos.cpp" />
+    <ClCompile Include="DatosMeteorologicosDiarios.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="FechaHorario.cpp" />
     <ClCompile Include="Horario.cpp" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DatosMeteorologicos.h" />
+    <ClInclude Include="DatosMeteorologicosDiarios.h" />
     <ClInclude Include="Fecha.h" />
     <ClInclude Include="FechaHorario.h" />
     <ClInclude Include="Horario.h" />
