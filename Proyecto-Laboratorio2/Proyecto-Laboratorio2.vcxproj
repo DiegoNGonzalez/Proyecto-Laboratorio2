@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="FechaHorario.cpp" />
+    <ClCompile Include="Horario.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fecha.h" />
+    <ClInclude Include="FechaHorario.h" />
+    <ClInclude Include="Horario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
