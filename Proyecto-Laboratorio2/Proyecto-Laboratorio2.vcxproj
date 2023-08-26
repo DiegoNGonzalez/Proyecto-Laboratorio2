@@ -143,6 +143,7 @@
     <ClCompile Include="DatosMeteorologicosDiarios.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="FechaHorario.cpp" />
+    <ClCompile Include="Funciones.cpp" />
     <ClCompile Include="Horario.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
@@ -151,6 +152,7 @@
     <ClInclude Include="DatosMeteorologicosDiarios.h" />
     <ClInclude Include="Fecha.h" />
     <ClInclude Include="FechaHorario.h" />
+    <ClInclude Include="Funciones.h" />
     <ClInclude Include="Horario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
