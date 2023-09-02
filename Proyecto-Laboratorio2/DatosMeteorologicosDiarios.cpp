@@ -40,7 +40,7 @@ void DatosMeteorologicosDiarios::setDescripcionTiempo(std::string descripcionTie
 }
 std::string DatosMeteorologicosDiarios::toString() {
 	std::string str = "";
-	str += _fecha.toString() + " " + _descripcionTiempo + " Temperatura: " + std::to_string(getTemperatura()) + "? Humedad: " + std::to_string(getHumedad()) + "% Presion: " + std::to_string(getPresion()) + " Velocidad del viento: " + std::to_string(getVelocidadViento()) + "km/H Precipitaciones: " + std::to_string(getLluvia()) + " ml Horas de sol: " + getHorasSol().toString();
+	str += _fecha.toString() + " " + _descripcionTiempo + " Temperatura: " + std::to_string(getTemperatura()) + "° Humedad: " + std::to_string(getHumedad()) + "% Presion: " + std::to_string(getPresion()) + " Velocidad del viento: " + std::to_string(getVelocidadViento()) + "km/H Precipitaciones: " + std::to_string(getLluvia()) + " ml Horas de sol: " + getHorasSol().toString();
 	return str;
 }
 std::string DatosMeteorologicosDiarios::toCSVString() {
