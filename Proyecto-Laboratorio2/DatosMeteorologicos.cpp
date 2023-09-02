@@ -29,7 +29,7 @@ DatosMeteorologicos::DatosMeteorologicos() {
 	_presion = 0;
 	_velocidadViento = 0;
 	_lluvia = 0;
-	_horasSol = Horario(00, 00, 00);
+	_horasSol = Horario(00,00,00);
 }
 DatosMeteorologicos::DatosMeteorologicos(float temperatura, float humedad, float presion, float velocidadViento, float lluvia, Horario horasSol) {
 	_temperatura = temperatura;
