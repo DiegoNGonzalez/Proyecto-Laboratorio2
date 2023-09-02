@@ -24,7 +24,7 @@
 //		void setHorasSol(Horario horasSol);
 //		std::string toString();
 DatosMeteorologicos::DatosMeteorologicos() {
-	_temperatura = 0;
+	_temperatura =0 ;
 	_humedad = 0;
 	_presion = 0;
 	_velocidadViento = 0;

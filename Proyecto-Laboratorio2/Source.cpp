@@ -15,7 +15,8 @@ int main() {
     system("COLOR 80");
     Sistema sistema = Sistema();
 	std::vector <DatosMeteorologicosDiarios> datos;
-    int opcion = 0;
+	std::vector <DatosMeteorologicosDiarios> reporte;
+	int opcion = 0;
     do {
 		opcion = sistema.menuPrincipal(opcion);
 		switch (opcion) {
@@ -23,15 +24,19 @@ int main() {
 			sistema.cargarDatos(datos);
 			break;
 		case 2:
-			sistema.mostrarDatos(datos );
+			sistema.cargarDatosOtraFecha(datos);
 			break;
 		case 3:
+			sistema.reporteSemanal(datos, reporte );
+			break;
+		case 4:
+			sistema.mostrarDatos(datos);
 			break;
 		default:
 			cout << "Opcion incorrecta" << endl;
 			break;
 		}
-	} while (opcion != 3);
+	} while (opcion != 5);
     //system("mode con: cols=80 lines=25"); //SE DEFINE LAS DIMENSIONES DE LA VENTANA DEL PROGRAMA A 80 COLUMNAS Y 25 FILAS
     //system("COLOR B0"); //SE DA UN COLOR DE FONDO Y COLOR A LAS LETRAS
     //dibujarCuadro(0, 0, 78, 24); //SE DIBUJA EL CUADRO PRINCIPAL

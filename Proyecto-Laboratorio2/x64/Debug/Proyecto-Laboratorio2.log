@@ -1,10 +1,2 @@
-﻿  DatosMeteorologicos.cpp
-  DatosMeteorologicosDiarios.cpp
-  Fecha.cpp
-  FechaHorario.cpp
-  Funciones.cpp
-  Horario.cpp
-  Sistema.cpp
-  Source.cpp
-  Generando código...
+﻿  Sistema.cpp
   Proyecto-Laboratorio2.vcxproj -> C:\Users\diegu\developer\Proyecto-Laboratorio2\x64\Debug\Proyecto-Laboratorio2.exe
